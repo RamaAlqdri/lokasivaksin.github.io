@@ -17,6 +17,9 @@ body{
   -ms-filter: "FlipV";
   z-index: -1;
 } */
+.d-flex .btn{
+  border-radius:120%;
+}
 .btn{
   font-weight: bold;
 }
@@ -27,7 +30,6 @@ body{
   background-color: #F9F7F7;
   border-radius: 21px;
   border:none;
-  /* sss */
 
 }
 .title1 {
