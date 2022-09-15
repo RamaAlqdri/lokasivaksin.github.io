@@ -3,12 +3,32 @@ a:link {
 }
 body{
   background-color: #F3F3FD;
+  background-image:url(asset/bg.png);
+  background-repeat: no-repeat;
+  background-position: 10px 12px;
+  background-size: 100%;
 }
+/* .topdec{
+  position: absolute;
+  -moz-transform: scaleY(-1);
+  -o-transform: scaleY(-1);
+  -webkit-transform: scaleY(-1);
+  transform: scaleY(-1);
+  filter: FlipV;
+  -ms-filter: "FlipV";
+  z-index: -1;
+} */
 .btn{
   font-weight: bold;
 }
 .navbar-brand{
   font-size: 25px;
+}
+.form-control{
+  background-color: #F9F7F7;
+  border-radius: 15px;
+  border:none;
+
 }
 .title1 {
   margin-top: 25px;
@@ -22,7 +42,7 @@ body{
   letter-spacing: 5px;
 }
 
-.pencarian {
+/* .pencarian {
   background-image: url(asset/search.png);
   background-repeat: no-repeat;
   background-position: 10px 12px;
@@ -37,7 +57,7 @@ body{
 
   /* justify-content: center; */
 }
-.pencarian:focus {
+/* .pencarian:focus {
   outline: none;
 }
 ::placeholder {
@@ -46,8 +66,8 @@ body{
 }
 .search {
   display: flex;
-  justify-content: center;
-}
+  justify-content: center; */
+} */
 .login_body {
   background-image: url(asset/Login_BG.jpg);
   background-repeat: no-repeat;
