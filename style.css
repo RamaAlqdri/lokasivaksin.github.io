@@ -7,16 +7,6 @@ body{
   background-repeat: no-repeat;
   background-size: 1400px;
 }
-/* .topdec{
-  position: absolute;
-  -moz-transform: scaleY(-1);
-  -o-transform: scaleY(-1);
-  -webkit-transform: scaleY(-1);
-  transform: scaleY(-1);
-  filter: FlipV;
-  -ms-filter: "FlipV";
-  z-index: -1;
-} */
 .d-flex .btn{
   border-radius:120%;
 }
@@ -43,40 +33,12 @@ body{
   font-family: kalivo;
   letter-spacing: 5px;
 }
-
-/* .pencarian {
-  background-image: url(asset/search.png);
-  background-repeat: no-repeat;
-  background-position: 10px 12px;
-  background-size: 17px;
-  color: #646669;
-  font-size: 15px;
-  background-color: #d2d5d9;
-  border: none;
-  width: 50%;
-  padding: 12px 25px;
-  border-radius: 15px;
-
-  /* justify-content: center; */
-/* } */
-/* .pencarian:focus {
-  outline: none;
-}
-::placeholder {
-  color: #646669;
-  padding: 10px;
-}
-.search {
-  display: flex;
-  justify-content: center; */
-/* } */ 
 .login_body {
   background-image: url(asset/Login_BG.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  height:100vh;
+  height: 100px;;
   background-position: center;
-  /* background-color: #63b8d8; */
 }
 .box1 h1{
   text-align: center;
@@ -95,6 +57,5 @@ body{
   background-color: rgba(10, 5, 30, 0.366);
   box-shadow: 0 0 10px rgba(255,255,255,.3);
   border-radius: 4px;
-  font-family: 'Open Sans', sans-serif;
-  
+  font-family: sans-serif;
 }
