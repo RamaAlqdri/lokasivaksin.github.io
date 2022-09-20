@@ -3,36 +3,31 @@ a:link {
 }
 body{
   background-color: #F3F3FD;
-  background-image:url(asset/bg.png);
-  background-repeat: no-repeat;
+  /* background-image:url(asset/bg.png); */
+  /* background-repeat: no-repeat; */
   background-size: 1400px;
 }
-.d-flex .btn{
-  border-radius:120%;
+.textW{
+  font-size: 40px;
+  margin-bottom: 0px;
+
 }
+.textN{
+  margin: 0;
+  padding:0;
+  font-size: 40px;
+  font-weight: bold;
+  /* color : #4486F6; */
+
+}
+
 .btn{
   font-weight: bold;
 }
 .navbar-brand{
   font-size: 25px;
 }
-.form-control{
-  background-color: #F9F7F7;
-  border-radius: 21px;
-  border:none;
 
-}
-.title1 {
-  margin-top: 25px;
-  font-weight: bold;
-  color: #3E86F6;
-  text-align: center;
-  font-size: 50px;
-  text-decoration: none;
-  margin-bottom: 5px;
-  font-family: kalivo;
-  letter-spacing: 5px;
-}
 .login_body {
   background-image: url(asset/Login_BG.jpg);
   background-repeat: no-repeat;
